@@ -1,0 +1,21 @@
+Passos para Conversão
+
+1- Update SDK in csproj file
+	- adicionar a palavar .Web no final do Sdk=
+	- remover a linha outputtype
+
+
+2- Update output type in csproj
+
+3- add new WebHostBuilder
+
+4- Add routing
+
+5- Setup default route
+
+
+
+
+o que eh Host? Eh um objeto que encapsula recursos de DI, Logging, Configuration, IHostServices implementation
+
+https://www.youtube.com/watch?v=9QQSPFtZ6Uk
